@@ -21,7 +21,10 @@ margin: 0 auto -4em;
 clear: both;
 height: 4em;
 }
-
+.directorySlider {
+	width: 650px;
+	height: 500px;
+}
 body {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width:1376px;
@@ -182,6 +185,19 @@ section {
 section p {
 	margin-right: 5px;
 	padding: 10px
+}
+#imageSlideshowHolder {
+    width: 606px;
+    width/* */: /**/600px;
+    width: /**/600px;
+    height: 456px;
+    height/* */: /**/450px;
+    height: /**/450px;
+    background-color: #000;
+    border: 3px solid #317082;
+    position: relative;
+    left: 18px;
+    top: 10px;
 }
 .portboxes {
   display: inline-block;
@@ -361,10 +377,36 @@ aside {
     width: 15%;
     font-size: 20px;
 }
+#socialbar-gallery {
+    float: right;
+    background: #fff;
+    padding: 16px;
+    width: 270px;
+    height: 190px;
+    margin: -645px 0px 0px 0px;
+    position: absolute;
+    left: 898px;
+}
+#socialheader-gallery {
+	position: relative;
+    left: 931px;
+    top: -635px;
+    color: #339999;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    width: 15%;
+    font-size: 20px;
+}
 .socialicons {
     position: relative;
     right: 50px;
     bottom: 95px;
+    padding: 2px;
+}
+.socialicons-gallery {
+    position: relative;
+    right: -348px;
+    bottom: 607px;
     padding: 2px;
 }
 #githover:hover {
@@ -382,6 +424,15 @@ footer {
 	border-top: 5px solid #339999;
 	padding: 30px;
 	text-align: center;
+}
+#footergallery {
+	clear: both;
+    background: #666;
+    border-top: 5px solid #339999;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    top: -117px;
 }
 #copylink {
 	color:#ccc;
