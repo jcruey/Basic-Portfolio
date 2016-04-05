@@ -80,6 +80,15 @@ nav ul li a:hover {
 	border-top: 2px solid #ccc;
 	padding: 40px;
 }
+#content-index {
+	clear:both;
+	overflow: auto;
+	background-image: url("../images/brickwall.png");
+	width:1376px;
+	height: 517px;
+	border-top: 2px solid #ccc;
+	padding: 40px;
+}
 iframe {
 	padding: 2px;
 }
@@ -198,6 +207,16 @@ section p {
     position: relative;
     left: 18px;
     top: 10px;
+}
+.imageInGallery{		
+	width:600px;
+	height:450px;
+	background-color:#000;
+	
+	/* Never change these 3 value */
+	left:0px;
+	top:0px;
+	position:absolute;	
 }
 .portboxes {
   display: inline-block;
