@@ -49,7 +49,7 @@ nav ul li a:hover {
 	border-bottom: 3px solid #339999;
 	color:#339999;
 }
-#navpipe {
+.navpipe {
 	text-decoration: none;
 	border-right: 1px solid #eee;
 }
