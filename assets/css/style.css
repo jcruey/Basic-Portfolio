@@ -5,6 +5,22 @@
 }
 
 /* Fill in your CSS Below */
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+clear: both;
+height: 4em;
+}
 
 body {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -60,6 +76,9 @@ nav ul li a:hover {
 	width:1376px;
 	border-top: 2px solid #ccc;
 	padding: 40px;
+}
+iframe {
+	padding: 2px;
 }
 #section-contact {
 	float: left;
