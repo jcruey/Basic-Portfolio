@@ -85,7 +85,7 @@ nav ul li a:hover {
 	overflow: auto;
 	background-image: url("../images/brickwall.png");
 	width:1376px;
-	height: 517px;
+	height: 552px;
 	border-top: 2px solid #ccc;
 	padding: 40px;
 }
@@ -106,65 +106,65 @@ iframe {
 	left: 237px; 
 }
 #submit {
-	float:left;
-	position: absolute;
-	left: 241px;
-    top: 640px;
-}
+    float: left;
+    position: relative;
+    left: 18px;
+    top: 82px;
+}    
 #submit:hover {
-	float:left;
-	position: absolute;
-	left: 241px;
-    top: 640px;
+	float: left;
+    position: relative;
+    left: 18px;
+    top: 82px;
     color:#1acdc4;
 }
 #reset {
-	float:left;
-	position: absolute;
-	left: 288px;
-    top: 640px;
+	float: left;
+    position: relative;
+    left: 22px;
+    top: 82px;
 }
 #reset:hover {
-	float:left;
-	position: absolute;
-	left: 288px;
-    top: 640px;
+	float: left;
+    position: relative;
+    left: 22px;
+    top: 82px;
     color:#1acdc4;
 }
 #messageinput {
-	position: absolute;
-	top:405px;
-	left:242px;
-	padding: 8px;
-	padding-bottom: 200px;
+	position: relative;
+    top: 73px;
+    left: 18px;
+    padding: 8px;
+    padding-bottom: 200px;
 }
 #messagetag {
-	position: absolute;
-	top:380px;
-	left:240px;
+    position: relative;
+    top: 65px;
+    left: 18px;
 }
 #emailinput {
-	position: absolute;
-	top: 338px;
-    left: 240px;
+	position: relative;
+    top: 50px;
+    left: 19px;
     padding: 8px;
 }
 #emailtag {
-	position: absolute;
-	top: 305px;
-    left: 232px;
+    position: relative;
+    top: 52px;
+    left: 10px;
     padding: 8px;
 }
 #nameinput {
-	position: absolute;
-	top: 270px;
-    left: 240px;
+    position: relative;
+    top: 44px;
+    left: 18px;
     padding: 8px;
 }
 #nametag {
-	position: absolute;
-	top:240px;
-	left:240px;
+    position: relative;
+    top: 38px;
+    left: 18px;
 }
 input {
 	float: left;
@@ -386,16 +386,6 @@ aside {
     height: 190px;
     margin: 10px 160px 0px 0px;
 }
-#socialheader {
-	position: absolute;
-    left: 938px;
-    top: 142px;
-    color: #339999;
-    padding: 15px;
-    border-bottom: 1px solid #eee;
-    width: 15%;
-    font-size: 20px;
-}
 #socialbar-gallery {
     float: right;
     background: #fff;
@@ -403,8 +393,39 @@ aside {
     width: 270px;
     height: 190px;
     margin: -645px 0px 0px 0px;
-    position: absolute;
-    left: 898px;
+    position: relative;
+    right: 203px;
+    top: 5px;
+}
+#socialheader {
+	position: relative;
+    left: 882px;
+    bottom: 328px;
+    color: #339999;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    width: 15%;
+    font-size: 20px;;
+}
+#socialheader-portfolio {
+    position: relative;
+    left: 901px;
+    bottom: 945px;
+    color: #339999;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    width: 15%;
+    font-size: 20px;
+}
+#socialheader-contact {
+	position: relative;
+    left: 904px;
+    bottom: 575px;
+    color: #339999;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    width: 15%;
+    font-size: 20px;
 }
 #socialheader-gallery {
 	position: relative;
@@ -418,8 +439,20 @@ aside {
 }
 .socialicons {
     position: relative;
-    right: 50px;
-    bottom: 95px;
+    left: 345px;
+    bottom: 305px;
+    padding: 2px;
+}
+.socialicons-portfolio {
+	position: relative;
+    left: 355px;
+    bottom: 918px;
+    padding: 2px;
+}
+.socialicons-contact {
+    position: relative;
+    left: 354px;
+    bottom: 544px;
     padding: 2px;
 }
 .socialicons-gallery {
