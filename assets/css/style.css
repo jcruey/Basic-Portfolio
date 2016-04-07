@@ -492,8 +492,8 @@ aside {
 }
 #socialheader-concert {
 	 position: relative;
-    left: 902px;
-    bottom: 1348px;
+    left: 0px;
+    bottom: 0px;
     color: #339999;
     padding: 15px;
     border-bottom: 1px solid #eee;
