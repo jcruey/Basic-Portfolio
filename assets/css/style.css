@@ -138,6 +138,7 @@ iframe {
     padding: 8px;
     padding-bottom: 200px;
     padding-right: 106px;
+    width: 96%;
 }
 #messagetag {
     position: relative;
@@ -150,6 +151,7 @@ iframe {
     left: 18px;
     padding: 8px;
     padding-right: 107px;
+    width: 96%;
 }
 #emailtag {
     position: relative;
@@ -163,6 +165,7 @@ iframe {
     left: 19px;
     padding: 8px;
     padding-right: 105px;
+    width: 96%;
 }
 #nametag {
     position: relative;
