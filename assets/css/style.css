@@ -419,6 +419,17 @@ aside {
     right: 203px;
     top: 15px;
 }
+#socialbar-concert {
+    float: right;
+    background: #fff;
+    padding: 16px;
+    width: 270px;
+    height: 190px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    right: 196px;
+    bottom: 595px;
+}
 #socialheader {
 	position: relative;
     left: 882px;
@@ -432,7 +443,7 @@ aside {
 #socialheader-portfolio {
     position: relative;
     left: 901px;
-    bottom: 945px;
+    bottom: 936px;
     color: #339999;
     padding: 15px;
     border-bottom: 1px solid #eee;
@@ -447,6 +458,16 @@ aside {
     padding: 15px;
     border-bottom: 1px solid #eee;
     width: 15%;
+    font-size: 20px;
+}
+#socialheader-concert {
+	position: relative;
+    left: 0px;
+    bottom: 0px;
+    color: #339999;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
     font-size: 20px;
 }
 #socialheader-gallery {
@@ -467,6 +488,16 @@ aside {
     padding: 15px;
     border-bottom: 1px solid #eee;
     width: 15%;
+    font-size: 20px;
+}
+#socialheader-concert {
+	 position: relative;
+    left: 902px;
+    bottom: 1348px;
+    color: #339999;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
     font-size: 20px;
 }
 .socialicons {
@@ -499,6 +530,12 @@ aside {
     bottom: 1320px;
     padding: 2px;
 }
+.socialicons-concert {
+	position: relative;
+    right: 0px;
+    top: 20px;
+    padding: 2px;
+}
 #githover:hover {
 	background-color: #339999;
 }
@@ -523,6 +560,15 @@ footer {
     position: relative;
     text-align: center;
     top: -117px;
+}
+#footerconcert {
+	clear: both;
+    background: #666;
+    border-top: 5px solid #339999;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    top: -188px;
 }
 #copylink {
 	color:#ccc;
