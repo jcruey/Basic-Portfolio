@@ -98,7 +98,7 @@ iframe {
     padding: 10px;
     width: 650px;
     height: 600px;
-    margin: 10px 0px 0px 154px;
+    margin: 10px 0px 0px 0px;
 }
 .formtags {
 	float: left;
@@ -191,11 +191,14 @@ section h2 {
     font-size: 25px;
 }
 section {
-	float: left;
+    float: left;
     background: #fff;
     padding: 10px;
     width: 650px;
-    margin: 10px 0px 0px 154px;
+    margin: 0;
+    position: relative;
+    left: 154px;
+    top: 10px;
 }
 section p {
 	margin-right: 5px;
@@ -390,7 +393,20 @@ aside {
     padding: 16px;
     width: 270px;
     height: 190px;
-    margin: 10px 160px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    right: 160px;
+}
+#socialbar-contact {
+	float: right;
+    background: #fff;
+    padding: 16px;
+    width: 270px;
+    height: 190px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    right: 160px;
+    top:10px;
 }
 #socialbar-gallery {
     float: right;
@@ -401,7 +417,7 @@ aside {
     margin: -645px 0px 0px 0px;
     position: relative;
     right: 203px;
-    top: 5px;
+    top: 15px;
 }
 #socialheader {
 	position: relative;
@@ -426,7 +442,7 @@ aside {
 #socialheader-contact {
 	position: relative;
     left: 904px;
-    bottom: 575px;
+    bottom: 570px;
     color: #339999;
     padding: 15px;
     border-bottom: 1px solid #eee;
@@ -435,8 +451,18 @@ aside {
 }
 #socialheader-gallery {
 	position: relative;
-    left: 931px;
-    top: -635px;
+    left: 936px;
+    top: -620px;
+    color: #339999;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    width: 15%;
+    font-size: 20px;
+}
+#socialheader-video {
+	 position: relative;
+    left: 902px;
+    bottom: 1348px;
     color: #339999;
     padding: 15px;
     border-bottom: 1px solid #eee;
@@ -465,6 +491,12 @@ aside {
     position: relative;
     right: -348px;
     bottom: 607px;
+    padding: 2px;
+}
+.socialicons-video {
+    position: relative;
+    left: 353px;
+    bottom: 1320px;
     padding: 2px;
 }
 #githover:hover {
